@@ -10,6 +10,7 @@ const kvs = [
   ['db.path', path.join(_drillDirPath, 'db')],
   ['container.paths', [path.join(os.homedir(), 'default-drill-material-container')]]
 ];
+const keys = kvs.map(kv => kv[0]);
 
 const _confObj = kvs.reduce((acc, val) => {
   acc[val[0]] = val[1];
@@ -22,5 +23,6 @@ module.exports = {
   drillDirPath: _drillDirPath,
   confObj: _confObj,
   confStr: JSON.stringify(_confObj, null, 2),
-  materialDirName: 'material'
+  defaultMaterialDirName: 'material',
+  confKeys: keys
 };
