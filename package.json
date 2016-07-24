@@ -1,0 +1,22 @@
+{
+  "name": "@justinc/drill-conf",
+  "version": "0.0.1",
+  "description": "configuration for @justinc/drill",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-calleja/drill-conf.git"
+  },
+  "keywords": [],
+  "author": "Justin Calleja <calleja.justin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-calleja/drill-conf/issues"
+  },
+  "homepage": "https://github.com/justin-calleja/drill-conf#readme"
+}
