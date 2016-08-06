@@ -37,6 +37,7 @@ module.exports = {
   confFileName: _confFileName,
   confFilePath: _confFilePath,
   drillDirPath: _drillDirPath,
+  lastGenRunLogFileName: 'last-gen-run.log',
   confObj: _confObj,
   confStr: _confStr,
   defaultMaterialDirName: 'material',
